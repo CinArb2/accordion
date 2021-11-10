@@ -160,6 +160,7 @@ body{
 @media only screen and (min-width: 55rem) {
   
   .card{
+    height: 90px;
     display: flex;
     align-items: center;
     padding: 3rem 2rem 5rem;
