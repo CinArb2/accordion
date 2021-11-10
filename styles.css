@@ -127,11 +127,17 @@ body{
 .card__qa-text{
   padding: 1rem 0 0 ;
   overflow: hidden;
-  opacity: 1;
-  height: 18vh;
+  height: 120px;
   transition: height 500ms ease-out,
               overflow 300ms ease;
 }
+
+@media only screen and (min-width: 500px){
+  .card__qa-text{
+    height: 90px;
+  }
+}
+
 
 .card__qa{
   border-bottom: 1px solid var(--light-gray);
