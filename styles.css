@@ -128,7 +128,7 @@ body{
   padding: 1rem 0 0 ;
   overflow: hidden;
   opacity: 1;
-  height: 100px;
+  height: 18vh;
   transition: height 500ms ease-out,
               overflow 300ms ease;
 }
