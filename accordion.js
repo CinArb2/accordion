@@ -5,7 +5,6 @@ let cardText = document.querySelectorAll('.card__qa-text');
 
 cardQA.forEach(item => {
 
-  // item.nextElementSibling.style.transition = "all 300ms";
 
   item.addEventListener('click', () => {
     
