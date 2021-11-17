@@ -5,6 +5,7 @@ let cardText = document.querySelectorAll('.card__qa-text');
 
 cardQA.forEach(item => {
 
+  item.style.transition = "height 300ms ease",
 
   item.addEventListener('click', () => {
     
@@ -18,7 +19,7 @@ cardQA.forEach(item => {
     
 
     item.nextElementSibling.style.height = 'auto';
-    let x = item.nextElementSibling.clientHeight;
+    let x = item.nextElementSibling.scrollHeight;
     item.nextElementSibling.style.height = x;
     item.nextElementSibling.classList.toggle('show');
     item.classList.toggle('show');

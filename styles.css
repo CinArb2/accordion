@@ -125,11 +125,11 @@ body{
 }
 
 .card__qa-text{
-  height: auto;
+  
   padding: 1rem 0 1rem;
   overflow: hidden;
   transition: height 300ms ease,
-              padding-bottom 700ms ease;
+              padding-bottom 300ms ease;
 }
 
 .card__qa{
